@@ -1,0 +1,536 @@
+/* Global Area Starts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  --Primary-font: "Inter", sans-serif;
+  --secondary-font: "Libre Baskerville", serif;
+  --primary-color: rgb(99, 76, 0);
+  --secondry-color: rgb(252, 231, 231);
+}
+body {
+  font-family: var(--Primary-font);
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  line-height: 150%;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: rgb(99, 76, 0);
+  color: white;
+  font-size: 1.8rem;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  display: inline-block;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(237, 216, 161, 1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(237, 216, 161, 1);
+  box-shadow: 10px 10px 0px 0px rgba(237, 216, 161, 1);
+  transition: all 0.5s ease;
+}
+.btn-primary:hover {
+  -webkit-box-shadow: -10px -10px 0px 0px rgba(237, 216, 161, 1);
+  -moz-box-shadow: -10px -10px 0px 0px rgba(237, 216, 161, 1);
+  box-shadow: -10px -10px 0px 0px rgba(237, 216, 161, 1);
+}
+.footer-area .btn-primary {
+  -webkit-box-shadow: 10px 10px 0px 0px white;
+  -moz-box-shadow: 10px 10px 0px 0px white;
+  box-shadow: 10px 10px 0px 0px white;
+}
+.footer-area .btn-primary:hover {
+  -webkit-box-shadow: -10px -10px 0px 0px white;
+  -moz-box-shadow: -10px -10px 0px 0px white;
+  box-shadow: -10px -10px 0px 0px white;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+h2 {
+  font-size: 8rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+h3 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  font-size: 8rem;
+  font-weight: 400;
+  font-style: italic;
+}
+h4 {
+  color: var(--primary-color);
+  font-size: 5.6rem;
+  font-weight: 500;
+}
+h5 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  font-size: 5.6rem;
+  font-weight: 500;
+  font-style: italic;
+}
+hr {
+  border-top: 1px solid rgb(237, 216, 161);
+  margin: 50px 0;
+}
+.btn-2 {
+  font-family: var(--Primary-font);
+  color: var(--primary-color);
+  padding: 4px 15px;
+  background-color: rgb(237, 216, 161);
+  border-radius: 15px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+/* Global Area Ends */
+
+/* Header Area Starts */
+.header-area {
+  background-color: rgb(255 255 255);
+  padding: 30px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-heading {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.menu {
+  display: none;
+}
+.header-nav ul {
+  display: flex;
+  gap: 40px;
+}
+.header-nav ul li a {
+  font-size: 16px;
+  color: rgb(99, 76, 0);
+  font-weight: 400px;
+}
+/* Header Area Ends */
+
+/* Hero-Area Starts */
+.hero-area {
+  background-image: url(https://framerusercontent.com/images/CwJA0A5vAp5jSnc3Dc0HrNK6k4.webp);
+  background-color: rgb(255, 252, 237);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+.hero-container {
+  text-align: center;
+}
+.hero-container p {
+  padding: 20px 0;
+  width: 60%;
+  margin: 0 auto;
+}
+/* Hero-Area Ends */
+
+/* Offer-Area Starts */
+.offer-area {
+  background-image: url(https://framerusercontent.com/images/CwJA0A5vAp5jSnc3Dc0HrNK6k4.webp);
+  background-color: rgb(255, 252, 237);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 150px;
+}
+.offer-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.offer-left {
+  flex-basis: 60%;
+}
+.offer-right {
+  flex-basis: 40%;
+}
+.offer-area i {
+  font-family: var(--secondary-font);
+}
+.offer-area p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  line-height: 150%;
+  padding: 25px 0;
+}
+.offer-area li {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  line-height: 150%;
+}
+.offer-area img {
+  width: 420px;
+  height: 550px;
+  rotate: 3deg;
+}
+/* Offer-Area Ends */
+
+/* Savoring-Area Starts */
+.savoring-area {
+  padding: 20px 0;
+  background-image: url(https://framerusercontent.com/images/CwJA0A5vAp5jSnc3Dc0HrNK6k4.webp);
+  background-color: rgb(255, 252, 237);
+}
+.savoring-container {
+  max-width: 1180px;
+  text-align: center;
+  padding: 0 20px;
+}
+.savoring-area h6 {
+  color: var(--secondry-color);
+  font-size: 2.4rem;
+  margin-top: 30px;
+}
+.savoring-bg {
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/006/240/296/small_2x/idyllic-mountain-landscape-with-fresh-green-meadows-and-blooming-wildflowers-idyllic-nature-countryside-view-rural-outdoor-natural-view-idyllic-banner-nature-panoramic-spring-summer-scenery-photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  rotate: 1.5deg;
+}
+.savoring-colour {
+  background-color: rgba(0, 66, 51, 0.884);
+  padding: 100px 0;
+  border-radius: 25px;
+}
+.savoring-container p {
+  color: var(--secondry-color);
+  font-family: var(--secondary-font);
+  font-style: italic;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 2.6rem;
+  font-weight: 400;
+}
+.savoring-container .btn-primary {
+  background-color: rgb(237, 216, 161);
+  color: var(--primary-color);
+}
+/* Savoring-Area Ends */
+
+/* Bring-Area Starts */
+.bring-area {
+  background-image: url(https://framerusercontent.com/images/CwJA0A5vAp5jSnc3Dc0HrNK6k4.webp);
+  background-color: rgb(255, 252, 237);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+}
+.bring-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  align-items: center;
+}
+.bring-left {
+  flex-basis: 40%;
+}
+.bring-left img {
+  width: 420px;
+  height: 520px;
+  rotate: -3deg;
+}
+.bring-right {
+  flex-basis: 60%;
+}
+.bring-right h5 {
+  margin-bottom: 30px;
+}
+.bring-right p {
+  width: 80%;
+}
+/* Bring-Area Ends */
+
+/* Submit-Area Starts  */
+.submit-area {
+  background-image: url(https://framerusercontent.com/images/CwJA0A5vAp5jSnc3Dc0HrNK6k4.webp);
+  background-color: rgb(255, 252, 237);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 130px;
+}
+.submit-top {
+  text-align: center;
+}
+.submit-bottom {
+  width: 60%;
+  margin: 0 auto;
+}
+form {
+  margin-top: 60px;
+}
+label {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+.submit-area input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgb(128 128 128 / 30%);
+  background-image: url(https://framerusercontent.com/images/CwJA0A5vAp5jSnc3Dc0HrNK6k4.webp);
+  background-color: rgb(255, 252, 237);
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.submit-area select {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgb(128 128 128 / 30%);
+  background-image: url(https://framerusercontent.com/images/CwJA0A5vAp5jSnc3Dc0HrNK6k4.webp);
+  background-color: rgb(255, 252, 237);
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.submit-area select option {
+  background-color: white;
+  font-size: 18px;
+}
+textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgb(128 128 128 / 30%);
+  background-image: url(https://framerusercontent.com/images/CwJA0A5vAp5jSnc3Dc0HrNK6k4.webp);
+  background-color: rgb(255, 252, 237);
+  margin-top: 10px;
+}
+.button {
+  text-align: center;
+}
+.submit {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  display: inline-block;
+  margin-top: 20px;
+}
+/* Submit-Area Ends  */
+
+/* Footer-Area Starts */
+.footer-area {
+  background-color: rgb(0, 66, 51);
+  padding: 80px 0;
+}
+/* footer-top Starts*/
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 80px;
+}
+.top-left h3 {
+  color: rgb(237, 216, 161);
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: var(--Primary-font);
+  font-style: normal;
+}
+.top-right .btn-primary {
+  background-color: rgb(237, 216, 161);
+  color: var(--primary-color);
+}
+/* footer-top Ends */
+
+/* footer-middle Starts */
+.middle-left h2 {
+  font-size: 2rem;
+  color: white;
+  margin-top: 3px;
+}
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 165px;
+}
+.footer-middle > * {
+  flex-basis: 100%;
+}
+.middle-left {
+  display: flex;
+  gap: 80px;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+.middle-left .logo-heading {
+  align-items: start;
+}
+.middle-left h6 {
+  color: rgb(255 255 255);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.middle-left a {
+  color: rgb(255 255 255);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.middle-left h6 {
+  margin-bottom: 15px;
+}
+.menu-utilities {
+  display: flex;
+  gap: 100px;
+}
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.utilities {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.middle-right {
+  margin-top: 150px;
+}
+.middle-right h4 {
+  color: rgb(255 255 255);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.middle-right h5 {
+  font-family: var(--Primary-font);
+  font-style: normal;
+  color: rgb(255 255 255);
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 22px 0;
+}
+.middle-right p {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+  width: 100%;
+}
+.middle-right p a {
+  color: white;
+  text-decoration: underline;
+}
+.input-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.input-btn input {
+  padding: 15px 0px;
+  padding-left: 15px;
+  padding-right: 150px;
+  background-color: rgb(0, 66, 51);
+  border: 1px solid white;
+  border-radius: 8px;
+  font-size: 1.8rem;
+}
+.input-btn input::placeholder {
+  color: rgb(255 255 255 / 52%);
+}
+.btn {
+  background-color: rgb(237, 216, 161);
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  border-radius: 8px;
+  padding: 15px;
+  display: inline-block;
+}
+/* footer-middle Ends */
+
+/* footer-bottom Starts */
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  gap: 210px;
+  justify-content: space-between;
+}
+.bottom-left {
+  display: flex;
+  margin-top: 70px;
+}
+.bottom-left h6 {
+  color: white;
+  font-size: 1.4rem;
+}
+.bottom-left h5 {
+  color: white;
+  font-size: 1.4rem;
+}
+.footer-bottom .bottom-left h5 {
+  color: white;
+  padding: 0 40px;
+}
+.bottom-left a {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+.bottom-right {
+  margin-top: 70px;
+}
+.icon {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 25px;
+}
+.fa-facebook-f {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+  background-color: rgb(0, 66, 51);
+}
+.fa-twitter {
+  color: white;
+}
+.fa-linkedin {
+  color: white;
+  background-color: rgb(0, 66, 51);
+}
+/* footer-bottom Ends */
+
+/* Footer-Area Ends */

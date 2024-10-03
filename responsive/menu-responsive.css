@@ -1,0 +1,334 @@
+@media(max-width:1300px){
+    html{
+        font-size: 9px;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+h2{
+        font-size: 7.0rem;
+}
+h3{
+    font-size: 5.0rem;
+}
+ hr{
+    width: 90%;
+    margin: 0 auto;
+}
+
+     /* Coffee Area Starts */
+.coffee-top {
+    margin-bottom: 200px;
+}
+.coffee-bottom {
+    flex-direction: column;
+    gap: 80px;
+    padding: 0 60px;
+}
+.coffee-bottom img {
+    width: 100%;
+    height: 900px;
+    object-position: bottom;
+}
+     /* Coffee Area Ends */
+
+     /* Breakfast-Area Starts */
+     .breakfast-area {
+        padding-bottom: 100px;
+    }
+     .breakfast-container {
+        flex-direction: column-reverse;
+        gap: 80px;
+        padding: 0 60px;
+    }
+    .breakfast-left{
+        margin-bottom: 60px;
+    }
+    .breakfast-right img {
+        width: 100%;
+        height: 900px;
+    }
+     /* Breakfast-Area Ends */
+
+     /* Savory Area Starts */
+     .savory-container{
+        flex-direction: column;
+        gap: 80px;
+        padding: 0 60px;
+     }
+     .savory-right{
+        margin-bottom: 60px;
+    }
+     .savory-left img {
+        width: 100%;
+        height: 900px;
+    }
+    .savory-area {
+        padding-bottom: 100px;
+    }
+     /* Savory Area Ends */
+
+     /* Sweet -Area Starts */
+     .sweet-area {
+        padding-bottom: 0;
+    }
+     .sweet-container {
+        flex-direction: column-reverse;
+        gap: 80px;
+        padding: 0 60px;
+    }
+    .sweet-right img {
+        width: 100%;
+        height: 900px;
+    }
+     /* Sweet -Area Ends */
+
+          /* Footer-Area Starts */
+          .footer-top{
+            padding: 0 30px;
+         }
+         .footer-top hr{
+            width: 90%;
+            margin: 0 auto;
+         }
+         .top-left h3{
+            width: 60%;
+         }
+         .footer-middle{
+            flex-direction: column;
+            gap: 0;
+         }
+         .middle-left{
+            padding: 0 50px;
+            width: 100%;
+            margin-top: 80px;
+         }
+         .middle-left h2{
+            font-size: 2.4rem;
+         }
+         
+         .menu-utilities {
+            padding-right: 50px;
+        }
+         .middle-right{
+            margin-top: 50px;
+            width: 100%;
+            padding: 0 50px;
+        }
+        .input{
+            width: 100%;
+        }
+    .input input{
+            width: 100%;
+        }
+        .footer-bottom{
+            padding: 0 50px;
+        }
+        .bottom-left{
+            flex-direction: column;
+        }
+        .bottom-left h6{
+            margin-bottom: 15px;
+        }
+        .footer-bottom .bottom-left h5{
+            display: none;
+        }
+        .bottom-right {
+            margin-top: 0;
+        }
+        .icon {
+            font-size: 2.0rem;
+        }
+         /* Footer-Area Ends */
+}
+
+@media(max-width:768px){
+    h1{
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 5.5rem;
+}
+h3{
+    font-size: 4.0rem;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+h5{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+    /* Header-Area Starts */
+    .header-area {
+        background-image: url(https://framerusercontent.com/images/CwJA0A5vAp5jSnc3Dc0HrNK6k4.webp);
+        background-color: rgb(255, 252, 237);
+        padding: 0 0;
+    }
+    .header-container{
+        background-color: white;
+    }
+    .logo-heading-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:0;
+        width: 100%;
+        background-color: white;
+        padding: 30px 0;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .logo-heading{
+        padding: 0 15px;
+        margin-left: 10px;
+    }
+    .menu{
+        display: block;
+        margin-right: 20px;
+    }
+    .header-nav{
+        display: none;
+    }
+    .header-container .btn-primary{
+        display: none;
+    }
+     /* Header-Area Ends */
+
+     /* Coffee Area Starts */
+     .coffee-area {
+        padding: 20px 0;
+    }
+    .coffee-top {
+        margin-bottom: 80px;
+    }
+    .coffee-bottom {
+        padding: 0 25px;
+    }
+    .coffee-bottom-left {
+        text-align: center;
+    }
+    .coffee-bottom h3 {
+        text-align: start;
+    }
+     .coffee-bottom img {
+        width: 700px;
+        height: auto;
+     }
+     .price h5 {
+        padding: 15px 0;
+    }
+     /* Coffee Area Ends */
+
+     /* Breakfast-Area Starts */
+     .breakfast-area {
+        padding-bottom: 90px;
+    }
+     .breakfast-container {
+        padding: 0 25px;
+    }
+    .breakfast-left {
+        margin-bottom: 30px;
+    }
+     .breakfast-right {
+        padding-top: 60px;
+    }
+    .breakfast-right img{
+        width: 700px;
+        height: auto;
+    }
+    /* Breakfast-Area Ends */
+
+      /* Savory Area Starts */
+      .savory-area {
+        padding-bottom: 90px;
+    }
+      .savory-container {
+        padding: 0 25px;
+    }
+      .savory-left img{
+        width: 700px;
+        height: auto;
+    }
+    .savory-right {
+        margin-bottom: 30px;
+    }
+      /* Savory Area Ends */
+
+      /* Sweet -Area Starts */
+      .sweet-container {
+        padding: 0 25px;
+    }
+      .sweet-right img{
+        width: 700px;
+        height: auto;
+    }
+    .sweet-left {
+        margin-bottom: 30px;
+    }
+      /* Sweet -Area Ends */
+
+      /* Footer-Area Starts */
+.footer-top{
+    flex-direction: column;
+    padding: 0 30px;
+    margin-bottom: 70px;
+ }
+ .top-left {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.top-left h3 {
+    width: 100%;
+    font-size: 3.0rem;
+}
+.top-right {
+    width: 100%;
+    text-align: center;
+}
+.btn-primary {
+    width: 100%;
+}
+.middle-left{
+    flex-direction: column;
+    padding: 0 30px;
+    gap: 40px;
+    margin-top: 60px;
+}
+.middle-left .logo-heading {
+    padding: 0 0;
+    margin-left: 0;
+}
+.menu-utilities {
+    gap: 0;
+    justify-content: space-between;
+}
+.middle-right {
+    padding: 0 30px;
+}
+.middle-right p {
+    margin-top: 25px;
+}
+.input-btn {
+    flex-direction: column;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+}
+.footer-bottom {
+    flex-direction: column;
+    padding: 0 30px;
+    gap: 25px;
+}
+.footer-bottom .bottom-left{
+    width: 100%;
+}
+.footer-bottom .bottom-right{
+    width: 100%;
+}
+ /* Footer-Area Ends */
+}

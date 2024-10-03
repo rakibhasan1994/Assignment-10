@@ -1,0 +1,314 @@
+@media(max-width:1300px){
+    html{
+        font-size: 9px;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+
+    /* Contact-Area Starts */
+    .contact-area{
+        padding: 80px 0;
+        padding-bottom: 110px;
+    }
+    .contact-container{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .contact{
+        display: flex;
+        gap: 30px;
+    }
+     .contact-flexbox{
+        flex-direction: column;
+        width: 100%;
+     }
+    .contact-left{
+        text-align: center;
+    }
+    .contact-left .heading {
+        margin-bottom: 30px;
+    }
+    .contact-left h2{
+        font-size: 5.5rem;
+    }
+    .contact-left h3{
+        font-size: 5.5rem;
+    }
+    .fa-envelope {
+        padding: 16px;
+        width: 55px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .fa-phone {
+        padding: 18px;
+        width: 55px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .fa-location-dot {
+        padding: 21px;
+        width: 55px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .contact-left h5{
+        font-size: 1.3rem;
+    }
+    .contact-area hr{
+        display: none;
+    }
+    .contact-left .icon {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .contact-right{
+        width: 100%;
+        padding: 0 50px;
+        margin-bottom: 0;
+    }
+    textarea{
+        margin-bottom: 20px;
+    }
+    button{
+        color: white;
+        padding: 15px 15px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Contact-Area Ends */
+
+     /* Footer-Area Starts */
+     .footer-top{
+        padding: 0 30px;
+     }
+     .footer-area hr{
+        width: 90%;
+        margin: 0 auto;
+     }
+     .top-left h3{
+        width: 60%;
+     }
+     .footer-middle{
+        flex-direction: column;
+        gap: 0;
+     }
+     .middle-left{
+        padding: 0 50px;
+        width: 100%;
+        margin-top: 80px;
+     }
+     .middle-left h2{
+        font-size: 2.4rem;
+     }
+     
+     .menu-utilities {
+        padding-right: 50px;
+    }
+     .middle-right{
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 50px;
+    }
+    .input{
+        width: 100%;
+    }
+.input input{
+        width: 100%;
+    }
+    .footer-bottom{
+        padding: 0 50px;
+    }
+    .bottom-left{
+        flex-direction: column;
+    }
+    .bottom-left h6{
+        margin-bottom: 15px;
+    }
+    .footer-bottom .bottom-left h5{
+        display: none;
+    }
+    .bottom-right {
+        margin-top: 0;
+    }
+    .icon {
+        font-size: 2.0rem;
+    }
+     /* Footer-Area Ends */
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 8px;
+    }
+    h1{
+        font-size: 1.8rem;}
+
+        /* Header-Area Starts */
+    .header-area {
+        background-image: url(https://framerusercontent.com/images/CwJA0A5vAp5jSnc3Dc0HrNK6k4.webp);
+        background-color: rgb(255, 252, 237);
+        padding: 0 0;
+    }
+    .header-container{
+        background-color: white;
+    }
+    .logo-heading-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:0;
+        width: 100%;
+        background-color: white;
+        padding: 30px 0;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .logo-heading{
+        padding: 0 15px;
+        margin-left: 10px;
+    }
+    .menu{
+        display: block;
+        margin-right: 20px;
+    }
+    .header-nav{
+        display: none;
+    }
+    .header-container .btn-primary{
+        display: none;
+    }
+     /* Header-Area Ends */
+
+         /* Contact-Area Starts */
+         .contact-area{
+            padding: 30px 0;
+            padding-bottom: 70px;
+         }
+         .contact-container {
+            flex-direction: column;
+            gap: 80px;
+        }
+         .contact{
+            flex-direction: column;
+            gap: 0;
+        }
+        .contact-left {
+            width: 100%;
+        }
+        .contact-left .heading {
+            margin-bottom: 15px;
+        }
+        .contact-left h2 {
+            font-size: 4.5rem;
+            width: 150px;
+            margin: 0 auto;
+        }
+        .contact-left h3{
+            font-size: 4.5rem;
+        }
+        .fa-envelope {
+            padding: 14px;
+            width: 45px;
+            height: 45px;
+            font-size: 18px;
+        }
+        .fa-phone {
+            padding: 14px;
+            width: 45px;
+            height: 45px;
+            font-size: 18px;
+        }
+        .fa-location-dot {
+            padding: 14px;
+            width: 45px;
+            height: 45px;
+            font-size: 18px;
+        }
+        .contact-left h5{
+            font-size: 2.0rem;
+        }
+        .contact-left hr{
+            display: block;
+            width: 70%;
+            margin: 0 auto;
+            background-color: rgb(128 128 128 / 10%)
+        }
+        .contact-left .icon {
+            gap: 40px;
+            width: 310px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .contact-right {
+            padding: 0 20px;
+        }
+        button {
+            width: 100%;
+        }
+         /* Contact-Area Ends */
+
+     /* Footer-Area Starts */
+     .footer-top{
+        flex-direction: column;
+        padding: 0 30px;
+        margin-bottom: 70px;
+     }
+     .top-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .top-left h3 {
+        width: 100%;
+        font-size: 3.0rem;
+    }
+    .top-right {
+        width: 100%;
+        text-align: center;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .middle-left{
+        flex-direction: column;
+        padding: 0 30px;
+        gap: 40px;
+        margin-top: 60px;
+    }
+    .middle-left .logo-heading {
+        padding: 0 0;
+        margin-left: 0;
+    }
+    .menu-utilities {
+        gap: 0;
+        justify-content: space-between;
+    }
+    .middle-right {
+        padding: 0 30px;
+    }
+    .middle-right p {
+        margin-top: 25px;
+    }
+    .input-btn {
+        flex-direction: column;
+    }
+    .btn{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        padding: 0 30px;
+        gap: 25px;
+    }
+    .footer-bottom .bottom-left{
+        width: 100%;
+    }
+    .footer-bottom .bottom-right{
+        width: 100%;
+    }
+     /* Footer-Area Ends */
+    }
+    
